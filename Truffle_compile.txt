@@ -1,0 +1,80 @@
+
+PS D:\Nam4_2023-2024\HK1\BlockChain\Project\Market> truffle compile
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\MarketPlace.sol
+> Compiling .\contracts\Migrations.sol
+> Artifacts written to D:\Nam4_2023-2024\HK1\BlockChain\Project\Market\build\contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+PS D:\Nam4_2023-2024\HK1\BlockChain\Project\Market> truffle migrate
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\MarketPlace.sol
+> Compiling .\contracts\Migrations.sol
+> Artifacts written to D:\Nam4_2023-2024\HK1\BlockChain\Project\Market\build\contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x643c968c9594876cd631092294bcb53080044de7b4e9bd238186989b4bbddd5e
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x621601b09Fc323592Da501f9a43579BAeE03c68f
+   > block number:        14
+   > block timestamp:     1696516797
+   > account:             0x82d29219e0927999063eaAEbFB51437A8fA43575
+   > balance:             99.999323605954691635
+   > gas used:            193243 (0x2f2db)
+   > gas price:           2.656108191 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000513274315153413 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000513274315153413 ETH
+
+
+2_deploy_marketPlace.js
+=======================
+
+   Replacing 'MarketPlace'
+   -----------------------
+   > transaction hash:    0xd7c448962450585541bfdb5f692c99432bc604acf3b65122298936534482609f
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xAdE6c2FA6De077Bdb0B1d5bC4230Cb84c3134b02
+   > block number:        16
+   > block timestamp:     1696516798
+   > account:             0x82d29219e0927999063eaAEbFB51437A8fA43575
+   > balance:             99.997205059475980533
+   > gas used:            762344 (0xba1e8)
+   > gas price:           2.620736303 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001997902596174232 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.001997902596174232 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.002511176911327645 ETH
+
+
+PS D:\Nam4_2023-2024\HK1\BlockChain\Project\Market> 
